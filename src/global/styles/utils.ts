@@ -16,12 +16,10 @@ export type FlexJustifyType =
   | 'space-around'
   | 'space-evenly'
   | undefined;
+export type TextAlignType = 'left' | 'center' | 'right' | undefined;
 
 const background = (color: ColorValue | undefined) => ({
   backgroundColor: color,
-});
-const color = (value: ColorValue | undefined) => ({
-  color: value,
 });
 const width = (value: WidthHeightType) => ({ width: value });
 const height = (value: WidthHeightType) => ({ height: value });
@@ -80,7 +78,6 @@ const StyleUtils = {
   circle,
   padding,
   margin,
-  color,
 };
 
 export default StyleUtils;
