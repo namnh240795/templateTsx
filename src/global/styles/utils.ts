@@ -20,6 +20,9 @@ export type FlexJustifyType =
 const background = (color: ColorValue | undefined) => ({
   backgroundColor: color,
 });
+const color = (value: ColorValue | undefined) => ({
+  color: value,
+});
 const width = (value: WidthHeightType) => ({ width: value });
 const height = (value: WidthHeightType) => ({ height: value });
 const flex = (number: number | undefined) => ({ flex: number });
@@ -77,6 +80,7 @@ const StyleUtils = {
   circle,
   padding,
   margin,
+  color,
 };
 
 export default StyleUtils;

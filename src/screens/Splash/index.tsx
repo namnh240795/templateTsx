@@ -1,8 +1,11 @@
-import Typography from '@src/components/Text';
-import React from 'react';
+// import Box from '@src/components/Box';
+// import Typography from '@src/components/Text';
+// import React from 'react';
 
-const Splash: React.FC<any> = () => {
-  return <Typography />;
-};
+// const Splash: React.FC<any> = () => {
+//   return <Box justify="center">
 
-export default Splash;
+//   </Box>;
+// };
+
+// export default Splash;
