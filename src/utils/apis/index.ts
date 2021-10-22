@@ -1,8 +1,9 @@
 import { extend } from 'umi-request';
 import { ERROR_CODES } from './error_codes';
+import Config from 'react-native-config';
 
 export const BE = extend({
-  prefix: 'https://reqres.in',
+  prefix: Config.API_URL,
   errorHandler: function (error) {
     const { response, data } = error;
     if (response.status >= 400 && response.status < 500) {
