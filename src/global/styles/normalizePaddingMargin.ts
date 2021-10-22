@@ -2,7 +2,6 @@ type HorizontalAndVertical = [number, number];
 type TopRightBottomLeft = [number, number, number, number];
 
 export type PaddingMarginType =
-  | undefined
   | [number]
   | HorizontalAndVertical
   | TopRightBottomLeft;
