@@ -1,142 +1,86 @@
-// import React from 'react';
-// import { StyleSheet, View, TouchableOpacity } from 'react-native';
+import React from 'react';
+import StyleUtils, {
+  FlexDirectionType,
+  FlexJustifyType,
+  FlexWrapType,
+  WidthHeightType,
+} from '@src/global/styles/utils';
+import {
+  ColorValue,
+  FlexAlignType,
+  StyleSheet,
+  ViewProps,
+  TouchableOpacity,
+  View,
+} from 'react-native';
+import {
+  normalizePaddingMargin,
+  PaddingMarginType,
+} from '@src/global/styles/normalizePaddingMargin';
 
-// const Box = ({ style, children, margin, padding, pressable, ...rest }) => {
-//   const combinedStyle = [
-//     'flexDirection',
-//     'justify',
-//     'align',
-//     'alignSelf',
-//     'flex',
-//     'background',
-//     'square',
-//     'circle',
-//     'shadowDepth',
-//     'height',
-//     'width',
-//   ]
-//     .map(e => {
-//       if (!rest[e]) {
-//         return;
-//       }
+interface BoxProps extends ViewProps {
+  background?: ColorValue | undefined;
+  width?: WidthHeightType;
+  height?: WidthHeightType;
+  flex?: number;
+  flexDirection?: FlexDirectionType;
+  flexWrap?: FlexWrapType;
+  justify?: FlexJustifyType;
+  alignItems?: FlexAlignType | undefined;
+  alignSelf?: FlexAlignType | undefined;
+  circle?: number;
+  pressable?: boolean;
+  padding?: PaddingMarginType;
+  margin?: PaddingMarginType;
+}
 
-//       return styles[e](rest[e]);
-//     })
-//     .filter(e => e);
+const Box: React.FC<BoxProps> = props => {
+  const {
+    background,
+    width,
+    height,
+    flex,
+    flexDirection,
+    alignItems,
+    alignSelf,
+    circle,
+    padding,
+    margin,
+    pressable,
+    children,
+    style,
+    ...rest
+  } = props;
 
-//   if (pressable) {
-//     return (
-//       <TouchableOpacity
-//         style={StyleSheet.flatten([
-//           combinedStyle,
-//           margin && styles.margin(normalizeOptions(margin)),
-//           padding && styles.padding(normalizeOptions(padding)),
-//           style,
-//         ])}
-//         activeOpacity={0.7}
-//         {...rest}
-//       >
-//         {children}
-//       </TouchableOpacity>
-//     );
-//   }
+  const combinedStyle = StyleSheet.flatten([
+    StyleUtils.background(background),
+    StyleUtils.width(width),
+    StyleUtils.height(height),
+    StyleUtils.flex(flex),
+    StyleUtils.flexDirection(flexDirection),
+    StyleUtils.alignItems(alignItems),
+    StyleUtils.alignSelf(alignSelf),
+    StyleUtils.circle(circle),
+    padding && StyleUtils.padding(normalizePaddingMargin(padding)),
+    margin && StyleUtils.margin(normalizePaddingMargin(margin)),
+  ]);
 
-//   return (
-//     <View
-//       style={StyleSheet.flatten([
-//         combinedStyle,
-//         margin && styles.margin((margin)),
-//         padding && styles.padding(normalizeOptions(padding)),
-//         style,
-//       ])}
-//       {...rest}
-//     >
-//       {children}
-//     </View>
-//   );
-// };
+  if (pressable) {
+    return (
+      <TouchableOpacity
+        style={StyleSheet.flatten([combinedStyle, style])}
+        activeOpacity={0.7}
+        {...rest}>
+        {children}
+      </TouchableOpacity>
+    );
+  }
 
-// const styles = StyleSheet.create({
-//   background: color => {
-//     return { backgroundColor: color };
-//   },
-//   width: width => {
-//     return { width };
-//   },
-//   height: height => {
-//     return { height };
-//   },
-//   flex: number => {
-//     return { flex: number };
-//   },
-//   flexDirection: direction => {
-//     return {
-//       flexDirection: direction,
-//     };
-//   },
-//   justify: alignment => {
-//     return {
-//       justifyContent: alignment,
-//     };
-//   },
-//   align: alignment => {
-//     return {
-//       alignItems: alignment,
-//     };
-//   },
-//   alignSelf: alignment => {
-//     return {
-//       alignSelf: alignment,
-//     };
-//   },
-//   square: number => {
-//     return {
-//       height: number,
-//       width: number,
-//     };
-//   },
-//   circle: number => {
-//     return {
-//       height: number,
-//       width: number,
-//       borderRadius: number / 2,
-//     };
-//   },
-//   shadowDepth: depth => {
-//     let realDepth = 0;
-//     if (depth > 24) {
-//       realDepth = 24;
-//     } else {
-//       realDepth = depth;
-//     }
+  return (
+    <View style={StyleSheet.flatten([combinedStyle, style])} {...rest}>
+      {children}
+    </View>
+  );
+};
 
-//     return {
-//       shadowColor: '#000',
-//       shadowOffset: {
-//         width: 0,
-//         height: SHADOW_HEIGHT_MAP[realDepth],
-//       },
-//       shadowOpacity: SHADOW_OPACITY_MAP[realDepth],
-//       shadowRadius: SHADOW_RADIUS_MAP[realDepth],
-//       elevation: realDepth,
-//     };
-//   },
-//   margin: ([top, left, bottom, right]) => {
-//     return {
-//       marginTop: top,
-//       marginBottom: bottom,
-//       marginLeft: left,
-//       marginRight: right,
-//     };
-//   },
-//   padding: ([top, left, bottom, right]) => {
-//     return {
-//       paddingTop: top,
-//       paddingBottom: bottom,
-//       paddingLeft: left,
-//       paddingRight: right,
-//     };
-//   },
-// });
-
-// export default Box;
+export default Box;

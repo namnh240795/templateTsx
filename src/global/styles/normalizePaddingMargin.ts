@@ -1,18 +1,15 @@
 type HorizontalAndVertical = [number, number];
 type TopRightBottomLeft = [number, number, number, number];
 
-type NormalizeOptionType =
-  | number
+export type PaddingMarginType =
+  | undefined
   | [number]
   | HorizontalAndVertical
   | TopRightBottomLeft;
 
 function normalizePaddingMargin(
-  options: NormalizeOptionType,
-): NormalizeOptionType {
-  if (!Array.isArray(options) && typeof options === 'number') {
-    return normalizePaddingMargin([options]);
-  }
+  options: PaddingMarginType,
+): TopRightBottomLeft {
   if (options.length === 1) {
     const value = options[0];
     return [value, value, value, value];
