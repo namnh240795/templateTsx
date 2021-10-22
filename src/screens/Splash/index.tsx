@@ -1,11 +1,12 @@
-// import Box from '@src/components/Box';
-// import Typography from '@src/components/Text';
-// import React from 'react';
+import React from 'react';
+import { Image, View, TouchableOpacity } from 'react-native';
+import styles from './styles';
 
-// const Splash: React.FC<any> = () => {
-//   return <Box justify="center">
-
-//   </Box>;
-// };
-
-// export default Splash;
+const Splash = () => {
+  return (
+    <View>
+      <Image style={styles.imageStyle} source={require('./tempo_splash.png')} />
+    </View>
+  );
+};
+export default Splash;
