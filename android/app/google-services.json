@@ -1,0 +1,307 @@
+{
+  "project_info": {
+    "project_number": "1042511647684",
+    "firebase_url": "https://agiletech-project.firebaseio.com",
+    "project_id": "agiletech-project",
+    "storage_bucket": "agiletech-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042511647684:android:4d61022f88c6a0d3b40a91",
+        "android_client_info": {
+          "package_name": "app.schoolhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjCRzWMWGWSsDUxJS0KidKprkluUMAjWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1042511647684-60k8pvr2tv38a32n2drvhpjqniv20rma.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ascwalletapp.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042511647684:android:ad38f1a002a6e510b40a91",
+        "android_client_info": {
+          "package_name": "com.agiltech.tourbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042511647684-7vkcbh91o5kf1g9a4ku1a5h7llirkk8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agiltech.tourbooking",
+            "certificate_hash": "136dd50db288c719d55e7a377f623bc1b3d3c4b7"
+          }
+        },
+        {
+          "client_id": "1042511647684-dn3f3d0rb17n0d8ubp9oboqk9te0s5pu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agiltech.tourbooking",
+            "certificate_hash": "59aa85d05befb25e1c9c6e3c5c3fdcbcbb0f2881"
+          }
+        },
+        {
+          "client_id": "1042511647684-tpprdsn5hfcoiep5fsn2ufffk8i104f6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agiltech.tourbooking",
+            "certificate_hash": "3d3760ca0bf0e558dfa169c14a2fa269558cc6be"
+          }
+        },
+        {
+          "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjCRzWMWGWSsDUxJS0KidKprkluUMAjWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1042511647684-60k8pvr2tv38a32n2drvhpjqniv20rma.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ascwalletapp.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042511647684:android:2981038e1d48ca37b40a91",
+        "android_client_info": {
+          "package_name": "com.app.bottoms_up"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042511647684-5hucu0u284h88qlfrc8b83127bv542lq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.bottoms_up",
+            "certificate_hash": "1270159d7b09147ecf3f76aac420309b87d6a819"
+          }
+        },
+        {
+          "client_id": "1042511647684-8bajnlbnn2co48qht4vcinoh1hb7nm00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.bottoms_up",
+            "certificate_hash": "e2ba448613320504af81ce9ecaff186e7156179f"
+          }
+        },
+        {
+          "client_id": "1042511647684-fv212h3prgu00grkj40p7fl78nmsv0a7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.bottoms_up",
+            "certificate_hash": "59aa85d05befb25e1c9c6e3c5c3fdcbcbb0f2881"
+          }
+        },
+        {
+          "client_id": "1042511647684-sqtuuc02a59tcodabbiqp0dh891iahg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.bottoms_up",
+            "certificate_hash": "b42ad5a9551d333ad7d2b40868d033bfdba66e14"
+          }
+        },
+        {
+          "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjCRzWMWGWSsDUxJS0KidKprkluUMAjWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1042511647684-60k8pvr2tv38a32n2drvhpjqniv20rma.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ascwalletapp.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042511647684:android:0c812d8dd552b892b40a91",
+        "android_client_info": {
+          "package_name": "com.app.erosweeding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042511647684-69c81j0hguif8dj57ugt0pe15honv3j8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.erosweeding",
+            "certificate_hash": "59aa85d05befb25e1c9c6e3c5c3fdcbcbb0f2881"
+          }
+        },
+        {
+          "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjCRzWMWGWSsDUxJS0KidKprkluUMAjWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1042511647684-60k8pvr2tv38a32n2drvhpjqniv20rma.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ascwalletapp.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042511647684:android:6b9552863315b5ccb40a91",
+        "android_client_info": {
+          "package_name": "com.app.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjCRzWMWGWSsDUxJS0KidKprkluUMAjWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1042511647684-60k8pvr2tv38a32n2drvhpjqniv20rma.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ascwalletapp.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042511647684:android:0267d8e026d70f5db40a91",
+        "android_client_info": {
+          "package_name": "com.vinhome.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042511647684-c3om7miph5gtdrqb3028bk9pirddbir4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vinhome.mobile",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1042511647684-mvjjogj8btt7sguehp5buh468lucsv5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vinhome.mobile",
+            "certificate_hash": "3e5b9f3a1545b91d8f1efa9105e0529ef8f0dd9c"
+          }
+        },
+        {
+          "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjCRzWMWGWSsDUxJS0KidKprkluUMAjWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042511647684-7odu9n06ou6ngfma8kt7ldjnrbcoco8o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1042511647684-60k8pvr2tv38a32n2drvhpjqniv20rma.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ascwalletapp.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
